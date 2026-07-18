@@ -172,7 +172,7 @@ h1 span{color:var(--red);}
         <li>How to pitch & land foreign clients</li>
         <li>Class recording & resources</li>
         <li>WhatsApp support group</li>
-        <li class="highlight">🎯 1-on-1 Live Session (15 mins) — Joshua reviews your work, answers your questions directly</li>
+        <li class="highlight">🎯 1-on-1 Live Session (15 mins) — Clinton reviews your work, answers your questions directly</li>
       </ul>
       <button class="pay-btn gold" onclick="openEmailModal(20000,'VIP Access','gold')">Pay ₦20,000 →</button>
     </div>
@@ -307,7 +307,7 @@ h1 span{color:var(--red);}
       },
       callback: function(response){
         var msg = encodeURIComponent(
-          "Hi Joshua! 👋 I just paid for the *" + _plan + "* of the AI Web Design Class. My reference is " + response.reference + ". Please confirm my enrollment. 🙏"
+          "Hi Clinton! 👋 I just paid for the *" + _plan + "* of the AI Web Design Class. My reference is " + response.reference + ". Please confirm my enrollment. 🙏"
         );
         window.location.href = 'success.html?plan=' + encodeURIComponent(_plan) + '&ref=' + response.reference;
       },
